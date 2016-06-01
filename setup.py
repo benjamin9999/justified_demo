@@ -13,13 +13,13 @@ def get_version():
 
 setup(
     name='justified_demo',
-    description='Urwid Components using the Pydux state container',
-    long_description=open('README.rst').read(),
+    description='Text-justification demo',
+    #long_description=open('README.rst').read(),
     url="http://github.com/benjamin9999/justified_demo/",
     version=get_version(),
     author='Benjamin Yates',
     author_email='benjamin@rqdq.com',
     packages=['justified_demo'],
-    install_requires=['urwid_pydux==0.1.0', 'justified==0.1.0'],
+    install_requires=['urwid_pydux==0.2.0', 'justified==0.1.0'],
     license='MIT',
 )

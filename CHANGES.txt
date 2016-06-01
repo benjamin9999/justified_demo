@@ -1,3 +1,7 @@
+Version 0.1.1
+2016-06-01
+- Correct urwid_pydux version dependency
+
 Version 0.1.0
 2016-05-31
 - First release on PyPI
